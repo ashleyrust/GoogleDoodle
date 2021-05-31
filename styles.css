@@ -1,0 +1,32 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+*/
+
+*:not(svg *, svg) {
+  outline: 1px solid black;
+}
+
+/* Doodle Stage */
+#stage {
+  background: #95D6BD;
+  height: 300px;
+  width: 600px;
+  overflow: hidden;
+}
+.animation_container {
+  display: flex;
+  justify-content: center;
+}
+#animation {
+  height: 200px;
+}
+#heart1 {
+fill: red;
+}
+
+#heart2 {
+fill: green;
+}
